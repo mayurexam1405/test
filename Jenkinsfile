@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('') {
+    stage('error') {
       steps {
-        git(url: 'https://github.com/mayurexam1405/curriculum-app', branch: 'main')
+        git(url: 'https://github.com/mayurexam1405/curriculum-app', branch: 'dev')
       }
     }
 
